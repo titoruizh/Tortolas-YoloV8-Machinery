@@ -29,7 +29,7 @@ Using high-resolution drone orthomosaics, the system moves beyond simple detecti
 
 ## 🛠️ The Workflow (GeoAI Pipeline)
 
-The challenge with mining imagery is the scale. Standard YOLO cannot process a 5GB TIFF file. I developed a workflow to handle geospatial data:
+The challenge with mining imagery is the scale. Standard YOLO cannot process a 1-3GB TIFF file. I developed a workflow to handle geospatial data:
 
 1.  **Data Ingestion:** High-resolution Drone Orthomosaics (GeoTIFF/ECW).
 2.  **Tiling Strategy:** Automated script to slice massive rasters into $640 \times 640$ chips ensuring geospatial reference is preserved.
